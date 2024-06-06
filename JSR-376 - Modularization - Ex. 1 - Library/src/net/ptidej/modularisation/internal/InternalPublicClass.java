@@ -6,7 +6,7 @@ import java.lang.reflect.Method;
 import net.ptidej.modularisation.kernel.Interface;
 import net.ptidej.modularisation.kernel.impl.Implementation;
 
-public class Client {
+public class InternalPublicClass {
 	public static void main(final String[] args)
 			throws ClassNotFoundException, IllegalAccessException, InvocationTargetException, InstantiationException,
 			IllegalArgumentException, NoSuchMethodException, SecurityException {
