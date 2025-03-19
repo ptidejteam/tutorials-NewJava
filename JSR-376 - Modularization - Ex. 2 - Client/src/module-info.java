@@ -1,9 +1,3 @@
-/**
- * 
- */
-/**
- * 
- */
 module ModularizationWithModulesClient2 {
 	requires ModularizationWithModulesLibrary2;
 
