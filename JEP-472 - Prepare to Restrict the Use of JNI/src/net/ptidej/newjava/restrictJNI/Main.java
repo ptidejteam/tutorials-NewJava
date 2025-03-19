@@ -3,11 +3,16 @@ package net.ptidej.newjava.restrictJNI;
 import java.lang.module.Configuration;
 import java.lang.module.ModuleFinder;
 import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
 import java.nio.file.Path;
 import java.util.List;
 import java.util.Set;
 
 public class Main {
+
+	static {
+		System.loadLibrary("net_ptidej_newjava_restrictJNI_A");
+	}
 
 	public static void main(final String[] args)
 			throws ClassNotFoundException, NoSuchMethodException,
@@ -15,12 +20,15 @@ public class Main {
 
 		// Current module
 		final Module currentModule = A.class.getModule();
-		System.out.println(currentModule);
-		System.out.println(currentModule.getLayer().hashCode());
-		System.out.println(currentModule.isNativeAccessEnabled());
+		System.out.println("Module: " + currentModule);
+		System.out.println("In layer: " + currentModule.getLayer().hashCode());
+		System.out.println(
+				"With native access: " + currentModule.isNativeAccessEnabled());
 
+		// Calling native method
 		System.out.println("Calling A.bar()");
 		System.out.println(A.bar());
+		System.out.println();
 
 		// New module
 		final ModuleFinder moduleFinder = ModuleFinder.of(Path.of("bin/"));
@@ -30,21 +38,22 @@ public class Main {
 				Set.of("myModule"));
 		final ModuleLayer.Controller controller = ModuleLayer
 				.defineModulesWithOneLoader(cf, List.of(bootLayer),
-						A.class.getClassLoader());
+						Main.class.getClassLoader());
 		final ModuleLayer newLayer = controller.layer();
 		final Module newModule = List.copyOf(newLayer.modules()).getFirst();
-		System.out.println(newModule);
-		System.out.println(newModule.getLayer().hashCode());
-		System.out.println(newModule.isNativeAccessEnabled());
+		System.out.println("Module: " + newModule);
+		System.out.println("In layer: " + newModule.getLayer().hashCode());
+		System.out.println(
+				"With native access: " + newModule.isNativeAccessEnabled());
 
+		// Calling native method
 		System.out.println("Calling A.bar()");
-		controller.enableNativeAccess(newModule);
-		// final Class<?> classMain = Class.forName(newModule,
-		//		"net.ptidej.newjava.restrictJNI.A");
+		// controller.enableNativeAccess(newModule);
+		// final Class<?> classMain = Class.forName(newModule, "net.ptidej.newjava.restrictJNI.A");
 		final Class<?> classMain = newModule.getClassLoader()
 				.loadClass("net.ptidej.newjava.restrictJNI.A");
-		// final Method fooMethod = classMain.getDeclaredMethod("bar");
-		// fooMethod.invoke(null, new Object[0]);
+		final Method fooMethod = classMain.getDeclaredMethod("bar");
+		System.out.println(fooMethod.invoke(null, new Object[0]));
 	}
 
 }
