@@ -1,0 +1,826 @@
+# NOTE: Do not modify this file.
+#
+# This file is generated via the -XX:DumpLoadedClassList=<class_list_file> option
+# and is used at CDS archive dump time (see -Xshare:dump).
+#
+java/lang/Object id: 0
+java/io/Serializable id: 1
+java/lang/Comparable id: 2
+java/lang/CharSequence id: 3
+java/lang/constant/Constable id: 4
+java/lang/constant/ConstantDesc id: 5
+java/lang/String id: 6
+java/lang/reflect/AnnotatedElement id: 7
+java/lang/reflect/GenericDeclaration id: 8
+java/lang/reflect/Type id: 9
+java/lang/invoke/TypeDescriptor id: 10
+java/lang/invoke/TypeDescriptor$OfField id: 11
+java/lang/Class id: 12
+java/lang/Cloneable id: 13
+java/lang/ClassLoader id: 14
+java/lang/System id: 15
+java/lang/Throwable id: 16
+java/lang/Error id: 17
+java/lang/Exception id: 18
+java/lang/RuntimeException id: 19
+java/security/ProtectionDomain id: 20
+java/security/SecureClassLoader id: 21
+java/lang/ReflectiveOperationException id: 22
+java/lang/ClassNotFoundException id: 23
+java/lang/Record id: 24
+java/lang/LinkageError id: 25
+java/lang/NoClassDefFoundError id: 26
+java/lang/ClassCastException id: 27
+java/lang/ArrayStoreException id: 28
+java/lang/VirtualMachineError id: 29
+java/lang/InternalError id: 30
+java/lang/OutOfMemoryError id: 31
+java/lang/StackOverflowError id: 32
+java/lang/IllegalMonitorStateException id: 33
+java/lang/ref/Reference id: 34
+java/lang/IllegalCallerException id: 35
+java/lang/ref/SoftReference id: 36
+java/lang/ref/WeakReference id: 37
+java/lang/ref/FinalReference id: 38
+java/lang/ref/PhantomReference id: 39
+java/lang/ref/Finalizer id: 40
+java/lang/Runnable id: 41
+java/lang/Thread id: 42
+java/lang/Thread$FieldHolder id: 43
+java/lang/Thread$Constants id: 44
+java/lang/Thread$UncaughtExceptionHandler id: 45
+java/lang/ThreadGroup id: 46
+java/lang/BaseVirtualThread id: 47
+java/lang/VirtualThread id: 48
+java/lang/ThreadBuilders$BoundVirtualThread id: 49
+java/util/Map id: 50
+java/util/Dictionary id: 51
+java/util/Hashtable id: 52
+java/util/Properties id: 53
+java/lang/Module id: 54
+java/lang/reflect/AccessibleObject id: 55
+java/lang/reflect/Member id: 56
+java/lang/reflect/Field id: 57
+java/lang/reflect/Parameter id: 58
+java/lang/reflect/Executable id: 59
+java/lang/reflect/Method id: 60
+java/lang/reflect/Constructor id: 61
+jdk/internal/vm/ContinuationScope id: 62
+jdk/internal/vm/Continuation id: 63
+jdk/internal/vm/StackChunk id: 64
+jdk/internal/reflect/MethodAccessor id: 65
+jdk/internal/reflect/MethodAccessorImpl id: 66
+jdk/internal/reflect/ConstantPool id: 67
+java/lang/annotation/Annotation id: 68
+jdk/internal/reflect/CallerSensitive id: 69
+jdk/internal/reflect/ConstructorAccessor id: 70
+jdk/internal/reflect/ConstructorAccessorImpl id: 71
+jdk/internal/reflect/DirectConstructorHandleAccessor$NativeAccessor id: 72
+java/lang/invoke/MethodHandle id: 73
+java/lang/invoke/DirectMethodHandle id: 74
+java/lang/invoke/VarHandle id: 75
+java/lang/invoke/MemberName id: 76
+java/lang/invoke/ResolvedMethodName id: 77
+java/lang/invoke/MethodHandleNatives id: 78
+java/lang/invoke/LambdaForm id: 79
+java/lang/invoke/TypeDescriptor$OfMethod id: 80
+java/lang/invoke/MethodType id: 81
+java/lang/BootstrapMethodError id: 82
+java/lang/invoke/CallSite id: 83
+jdk/internal/foreign/abi/NativeEntryPoint id: 84
+jdk/internal/foreign/abi/ABIDescriptor id: 85
+jdk/internal/foreign/abi/VMStorage id: 86
+jdk/internal/foreign/abi/UpcallLinker$CallRegs id: 87
+java/lang/invoke/MethodHandleNatives$CallSiteContext id: 88
+java/lang/invoke/ConstantCallSite id: 89
+java/lang/invoke/MutableCallSite id: 90
+java/lang/invoke/VolatileCallSite id: 91
+java/lang/AssertionStatusDirectives id: 92
+java/lang/Appendable id: 93
+java/lang/AbstractStringBuilder id: 94
+java/lang/StringBuffer id: 95
+java/lang/StringBuilder id: 96
+jdk/internal/misc/UnsafeConstants id: 97
+jdk/internal/misc/Unsafe id: 98
+jdk/internal/module/Modules id: 99
+java/lang/AutoCloseable id: 100
+java/io/Closeable id: 101
+java/io/InputStream id: 102
+java/io/ByteArrayInputStream id: 103
+java/net/URL id: 104
+java/net/URLClassLoader id: 105
+java/lang/Enum id: 106
+java/util/jar/Manifest id: 107
+jdk/internal/loader/BuiltinClassLoader id: 108
+jdk/internal/loader/ClassLoaders id: 109
+jdk/internal/loader/ClassLoaders$AppClassLoader id: 110
+jdk/internal/loader/ClassLoaders$PlatformClassLoader id: 111
+java/security/CodeSource id: 112
+java/util/concurrent/ConcurrentMap id: 113
+java/util/AbstractMap id: 114
+java/util/concurrent/ConcurrentHashMap id: 115
+java/lang/Iterable id: 116
+java/util/Collection id: 117
+java/util/SequencedCollection id: 118
+java/util/List id: 119
+java/util/RandomAccess id: 120
+java/util/AbstractCollection id: 121
+java/util/AbstractList id: 122
+java/util/ArrayList id: 123
+java/lang/StackTraceElement id: 124
+java/nio/Buffer id: 125
+java/lang/StackWalker id: 126
+java/lang/StackStreamFactory$AbstractStackWalker id: 127
+java/lang/StackWalker$StackFrame id: 128
+java/lang/ClassFrameInfo id: 129
+java/lang/StackFrameInfo id: 130
+java/lang/LiveStackFrame id: 131
+java/lang/LiveStackFrameInfo id: 132
+java/util/concurrent/locks/AbstractOwnableSynchronizer id: 133
+java/lang/Boolean id: 134
+java/lang/Character id: 135
+java/lang/Number id: 136
+java/lang/Float id: 137
+java/lang/Double id: 138
+java/lang/Byte id: 139
+java/lang/Short id: 140
+java/lang/Integer id: 141
+java/lang/Long id: 142
+java/lang/Void id: 143
+java/util/Iterator id: 144
+java/lang/reflect/RecordComponent id: 145
+jdk/internal/vm/vector/VectorSupport id: 146
+jdk/internal/vm/vector/VectorSupport$VectorPayload id: 147
+jdk/internal/vm/vector/VectorSupport$Vector id: 148
+jdk/internal/vm/vector/VectorSupport$VectorMask id: 149
+jdk/internal/vm/vector/VectorSupport$VectorShuffle id: 150
+jdk/internal/vm/FillerObject id: 151
+java/lang/NullPointerException id: 152
+java/lang/ArithmeticException id: 153
+java/lang/IndexOutOfBoundsException id: 154
+java/lang/ArrayIndexOutOfBoundsException id: 155
+java/io/ObjectStreamField id: 156
+java/util/Comparator id: 157
+java/lang/String$CaseInsensitiveComparator id: 158
+jdk/internal/misc/VM id: 159
+java/lang/Module$ArchivedData id: 160
+jdk/internal/misc/CDS id: 161
+java/util/Set id: 162
+java/util/ImmutableCollections$AbstractImmutableCollection id: 163
+java/util/ImmutableCollections$AbstractImmutableSet id: 164
+java/util/ImmutableCollections$Set12 id: 165
+java/util/Objects id: 166
+java/util/ImmutableCollections id: 167
+java/util/ImmutableCollections$AbstractImmutableList id: 168
+java/util/ImmutableCollections$ListN id: 169
+java/util/ImmutableCollections$SetN id: 170
+java/util/ImmutableCollections$AbstractImmutableMap id: 171
+java/util/ImmutableCollections$MapN id: 172
+jdk/internal/access/JavaLangReflectAccess id: 173
+java/lang/reflect/ReflectAccess id: 174
+jdk/internal/access/SharedSecrets id: 175
+jdk/internal/reflect/ReflectionFactory id: 176
+java/io/ObjectStreamClass id: 177
+java/lang/Math id: 178
+jdk/internal/reflect/ReflectionFactory$Config id: 179
+jdk/internal/access/JavaLangRefAccess id: 180
+java/lang/ref/Reference$1 id: 181
+java/lang/ref/ReferenceQueue id: 182
+java/lang/ref/ReferenceQueue$Null id: 183
+java/lang/ref/ReferenceQueue$Lock id: 184
+jdk/internal/access/JavaLangAccess id: 185
+java/lang/System$1 id: 186
+jdk/internal/util/SystemProps id: 187
+jdk/internal/util/SystemProps$Raw id: 188
+java/util/HashMap id: 189
+java/lang/StringLatin1 id: 190
+jdk/internal/util/ArraysSupport id: 191
+java/util/Map$Entry id: 192
+java/util/HashMap$Node id: 193
+java/util/LinkedHashMap$Entry id: 194
+java/util/HashMap$TreeNode id: 195
+java/lang/StringConcatHelper id: 196
+java/lang/VersionProps id: 197
+java/lang/Runtime id: 198
+java/util/concurrent/locks/Lock id: 199
+java/util/concurrent/locks/ReentrantLock id: 200
+java/util/concurrent/ConcurrentHashMap$Segment id: 201
+java/util/concurrent/ConcurrentHashMap$CounterCell id: 202
+java/util/concurrent/ConcurrentHashMap$Node id: 203
+java/util/concurrent/locks/LockSupport id: 204
+java/util/concurrent/ConcurrentHashMap$ReservationNode id: 205
+java/util/AbstractSet id: 206
+java/util/HashMap$EntrySet id: 207
+java/util/HashMap$HashIterator id: 208
+java/util/HashMap$EntryIterator id: 209
+java/nio/charset/Charset id: 210
+java/nio/charset/spi/CharsetProvider id: 211
+sun/nio/cs/StandardCharsets id: 212
+jdk/internal/util/Preconditions id: 213
+java/util/function/Function id: 214
+jdk/internal/util/Preconditions$1 id: 215
+java/util/function/BiFunction id: 216
+jdk/internal/util/Preconditions$4 id: 217
+jdk/internal/util/Preconditions$2 id: 218
+jdk/internal/util/Preconditions$3 id: 219
+java/util/Arrays id: 220
+sun/util/PreHashedMap id: 221
+sun/nio/cs/StandardCharsets$Aliases id: 222
+sun/nio/cs/StandardCharsets$Cache id: 223
+sun/nio/cs/HistoricallyNamedCharset id: 224
+sun/nio/cs/Unicode id: 225
+sun/nio/cs/UTF_8 id: 226
+sun/nio/cs/ISO_8859_1 id: 227
+sun/nio/cs/US_ASCII id: 228
+java/nio/charset/StandardCharsets id: 229
+sun/nio/cs/UTF_16BE id: 230
+sun/nio/cs/UTF_16LE id: 231
+sun/nio/cs/UTF_16 id: 232
+sun/nio/cs/UTF_32BE id: 233
+sun/nio/cs/UTF_32LE id: 234
+sun/nio/cs/UTF_32 id: 235
+sun/nio/cs/StandardCharsets$Classes id: 236
+sun/nio/cs/MS1252 id: 237
+java/lang/Class$ReflectionData id: 238
+java/lang/Class$Atomic id: 239
+jdk/internal/reflect/Reflection id: 240
+java/lang/reflect/Modifier id: 241
+jdk/internal/reflect/MethodHandleAccessorFactory id: 242
+jdk/internal/reflect/DirectConstructorHandleAccessor id: 243
+jdk/internal/util/StaticProperty id: 244
+java/io/FileInputStream id: 245
+java/lang/System$In id: 246
+java/io/FileDescriptor id: 247
+jdk/internal/access/JavaIOFileDescriptorAccess id: 248
+java/io/FileDescriptor$1 id: 249
+java/io/Flushable id: 250
+java/io/OutputStream id: 251
+java/io/FileOutputStream id: 252
+java/lang/System$Out id: 253
+java/io/FilterInputStream id: 254
+java/io/BufferedInputStream id: 255
+java/io/FilterOutputStream id: 256
+java/io/PrintStream id: 257
+java/io/BufferedOutputStream id: 258
+sun/nio/cs/IBM850 id: 259
+java/io/Writer id: 260
+java/io/OutputStreamWriter id: 261
+sun/nio/cs/StreamEncoder id: 262
+sun/nio/cs/ArrayEncoder id: 263
+java/nio/charset/CharsetEncoder id: 264
+sun/nio/cs/SingleByte$Encoder id: 265
+sun/nio/cs/IBM850$Holder id: 266
+java/lang/StringUTF16 id: 267
+sun/nio/cs/SingleByte id: 268
+java/nio/charset/CodingErrorAction id: 269
+java/nio/ByteBuffer id: 270
+jdk/internal/misc/ScopedMemoryAccess id: 271
+java/nio/Buffer$1 id: 272
+jdk/internal/access/JavaNioAccess id: 273
+java/nio/Buffer$2 id: 274
+java/nio/HeapByteBuffer id: 275
+java/nio/ByteOrder id: 276
+java/io/BufferedWriter id: 277
+java/lang/Terminator id: 278
+jdk/internal/misc/Signal$Handler id: 279
+java/lang/Terminator$1 id: 280
+jdk/internal/misc/Signal id: 281
+java/util/Hashtable$Entry id: 282
+jdk/internal/misc/Signal$NativeHandler id: 283
+java/lang/Integer$IntegerCache id: 284
+jdk/internal/misc/OSEnvironment id: 285
+sun/io/Win32ErrorMode id: 286
+java/lang/Thread$State id: 287
+java/lang/ref/Reference$ReferenceHandler id: 288
+java/lang/Thread$ThreadIdentifiers id: 289
+java/lang/ref/Finalizer$FinalizerThread id: 290
+jdk/internal/ref/Cleaner id: 291
+java/util/Collections id: 292
+java/util/Collections$EmptySet id: 293
+java/util/Collections$EmptyList id: 294
+java/util/Collections$EmptyMap id: 295
+java/lang/IllegalArgumentException id: 296
+java/lang/invoke/MethodHandleStatics id: 297
+java/lang/reflect/ClassFileFormatVersion id: 298
+java/lang/CharacterData id: 299
+java/lang/CharacterDataLatin1 id: 300
+jdk/internal/util/ClassFileDumper id: 301
+java/util/HexFormat id: 302
+java/lang/Character$CharacterCache id: 303
+java/util/concurrent/atomic/AtomicInteger id: 304
+jdk/internal/module/ModuleBootstrap id: 305
+java/lang/module/ModuleDescriptor id: 306
+java/lang/invoke/MethodHandles id: 307
+java/lang/invoke/MemberName$Factory id: 308
+java/lang/invoke/MethodHandles$Lookup id: 309
+java/lang/StrictMath id: 310
+java/util/ImmutableCollections$MapN$1 id: 311
+java/util/ImmutableCollections$MapN$MapNIterator id: 312
+java/util/KeyValueHolder id: 313
+sun/invoke/util/VerifyAccess id: 314
+jdk/internal/access/JavaLangModuleAccess id: 315
+java/lang/module/ModuleDescriptor$1 id: 316
+java/io/File id: 317
+java/io/DefaultFileSystem id: 318
+java/io/FileSystem id: 319
+java/io/WinNTFileSystem id: 320
+jdk/internal/util/DecimalDigits id: 321
+jdk/internal/module/ModulePatcher id: 322
+jdk/internal/module/ModuleBootstrap$IllegalNativeAccess id: 323
+java/util/HashSet id: 324
+jdk/internal/module/ModuleLoaderMap id: 325
+jdk/internal/module/ModuleLoaderMap$Modules id: 326
+jdk/internal/module/ModuleBootstrap$Counters id: 327
+jdk/internal/module/ArchivedBootLayer id: 328
+jdk/internal/module/ArchivedModuleGraph id: 329
+jdk/internal/module/SystemModuleFinders id: 330
+java/net/URI id: 331
+jdk/internal/access/JavaNetUriAccess id: 332
+java/net/URI$1 id: 333
+jdk/internal/module/SystemModulesMap id: 334
+jdk/internal/module/SystemModules id: 335
+jdk/internal/module/SystemModules$default id: 336
+jdk/internal/module/Builder id: 337
+java/lang/module/ModuleDescriptor$Requires id: 338
+java/lang/module/ModuleDescriptor$Exports id: 339
+java/util/ImmutableCollections$SetN$SetNIterator id: 340
+java/lang/module/ModuleDescriptor$Opens id: 341
+java/lang/module/ModuleDescriptor$Provides id: 342
+java/util/ImmutableCollections$List12 id: 343
+java/lang/module/ModuleDescriptor$Version id: 344
+java/lang/module/ModuleDescriptor$Modifier id: 345
+java/lang/reflect/AccessFlag id: 346
+java/lang/reflect/AccessFlag$Location id: 347
+java/lang/reflect/AccessFlag$1 id: 348
+java/lang/reflect/AccessFlag$2 id: 349
+java/lang/reflect/AccessFlag$3 id: 350
+java/lang/reflect/AccessFlag$4 id: 351
+java/lang/reflect/AccessFlag$5 id: 352
+java/lang/reflect/AccessFlag$6 id: 353
+java/lang/reflect/AccessFlag$7 id: 354
+java/lang/reflect/AccessFlag$8 id: 355
+java/lang/reflect/AccessFlag$9 id: 356
+java/lang/reflect/AccessFlag$10 id: 357
+java/lang/reflect/AccessFlag$11 id: 358
+java/lang/reflect/AccessFlag$12 id: 359
+java/lang/reflect/AccessFlag$13 id: 360
+java/lang/reflect/AccessFlag$14 id: 361
+java/lang/reflect/AccessFlag$15 id: 362
+java/lang/reflect/AccessFlag$16 id: 363
+java/lang/reflect/AccessFlag$17 id: 364
+java/lang/reflect/AccessFlag$18 id: 365
+java/lang/module/ModuleDescriptor$Requires$Modifier id: 366
+java/util/ImmutableCollections$Set12$1 id: 367
+jdk/internal/module/ModuleTarget id: 368
+jdk/internal/module/ModuleHashes id: 369
+jdk/internal/module/ModuleHashes$Builder id: 370
+java/util/Collections$UnmodifiableMap id: 371
+jdk/internal/module/ModuleResolution id: 372
+java/lang/module/ModuleReference id: 373
+java/util/function/Supplier id: 374
+jdk/internal/module/SystemModuleFinders$1 id: 375
+jdk/internal/module/ModuleReferenceImpl id: 376
+jdk/internal/module/ModuleHashes$HashSupplier id: 377
+jdk/internal/module/SystemModuleFinders$2 id: 378
+java/lang/module/ModuleFinder id: 379
+jdk/internal/module/SystemModuleFinders$SystemModuleFinder id: 380
+java/util/Optional id: 381
+jdk/internal/loader/BootLoader id: 382
+java/lang/Module$EnableNativeAccess id: 383
+jdk/internal/loader/NativeLibraries id: 384
+jdk/internal/loader/ClassLoaderHelper id: 385
+java/util/concurrent/ConcurrentHashMap$CollectionView id: 386
+java/util/concurrent/ConcurrentHashMap$KeySetView id: 387
+jdk/internal/loader/ArchivedClassLoaders id: 388
+jdk/internal/loader/ClassLoaders$BootClassLoader id: 389
+java/security/cert/Certificate id: 390
+java/lang/ClassLoader$ParallelLoaders id: 391
+java/util/WeakHashMap id: 392
+java/util/WeakHashMap$Entry id: 393
+java/util/Collections$SetFromMap id: 394
+java/util/WeakHashMap$KeySet id: 395
+java/security/Principal id: 396
+jdk/internal/loader/URLClassPath id: 397
+java/net/URLStreamHandlerFactory id: 398
+java/net/URL$DefaultFactory id: 399
+jdk/internal/access/JavaNetURLAccess id: 400
+java/net/URL$1 id: 401
+java/io/File$PathStatus id: 402
+sun/net/www/ParseUtil id: 403
+java/net/URLStreamHandler id: 404
+sun/net/www/protocol/file/Handler id: 405
+sun/net/util/IPAddressUtil id: 406
+sun/net/util/IPAddressUtil$MASKS id: 407
+java/util/Queue id: 408
+java/util/Deque id: 409
+java/util/ArrayDeque id: 410
+sun/net/www/protocol/jar/Handler id: 411
+jdk/internal/module/ServicesCatalog id: 412
+jdk/internal/loader/AbstractClassLoaderValue id: 413
+jdk/internal/loader/ClassLoaderValue id: 414
+jdk/internal/loader/BuiltinClassLoader$LoadedModule id: 415
+java/lang/module/Configuration id: 416
+java/lang/module/ResolvedModule id: 417
+java/util/AbstractMap$1 id: 418
+java/util/AbstractMap$KeyIterator id: 419
+jdk/internal/module/ModuleLoaderMap$Mapper id: 420
+java/lang/ModuleLayer id: 421
+java/util/ListIterator id: 422
+java/util/ImmutableCollections$ListItr id: 423
+jdk/internal/loader/AbstractClassLoaderValue$Memoizer id: 424
+jdk/internal/module/ServicesCatalog$ServiceProvider id: 425
+java/util/concurrent/CopyOnWriteArrayList id: 426
+java/util/HashMap$KeySet id: 427
+java/util/HashMap$KeyIterator id: 428
+java/lang/ModuleLayer$Controller id: 429
+jdk/internal/vm/ContinuationSupport id: 430
+jdk/internal/vm/Continuation$Pinned id: 431
+sun/launcher/LauncherHelper id: 432
+sun/nio/cs/ArrayDecoder id: 433
+java/nio/charset/CharsetDecoder id: 434
+sun/nio/cs/SingleByte$Decoder id: 435
+sun/nio/cs/MS1252$Holder id: 436
+java/lang/StringCoding id: 437
+sun/net/util/URLUtil id: 438
+jdk/internal/loader/URLClassPath$Loader id: 439
+jdk/internal/loader/URLClassPath$FileLoader id: 440
+java/lang/Readable id: 441
+java/nio/CharBuffer id: 442
+java/nio/HeapCharBuffer id: 443
+sun/nio/cs/UTF_8$Decoder id: 444
+java/nio/charset/CoderResult id: 445
+jdk/internal/loader/Resource id: 446
+jdk/internal/loader/URLClassPath$FileLoader$1 id: 447
+java/lang/NamedPackage id: 448
+java/lang/Package id: 449
+java/lang/Package$VersionInfo id: 450
+java/lang/ref/Cleaner$Cleanable id: 451
+jdk/internal/ref/PhantomCleanable id: 452
+java/io/FileCleanable id: 453
+jdk/internal/ref/CleanerFactory id: 454
+java/util/concurrent/ThreadFactory id: 455
+jdk/internal/ref/CleanerFactory$1 id: 456
+java/lang/ref/Cleaner id: 457
+java/lang/ref/Cleaner$1 id: 458
+jdk/internal/ref/CleanerImpl id: 459
+jdk/internal/ref/CleanerImpl$CleanableList id: 460
+jdk/internal/ref/CleanerImpl$CleanableList$Node id: 461
+jdk/internal/ref/CleanerImpl$CleanerCleanable id: 462
+jdk/internal/misc/InnocuousThread id: 463
+sun/nio/ByteBuffered id: 464
+java/io/FileInputStream$1 id: 465
+java/security/SecureClassLoader$CodeSourceKey id: 466
+java/security/SecureClassLoader$1 id: 467
+java/security/PermissionCollection id: 468
+java/security/Permissions id: 469
+java/security/SecureClassLoader$DebugHolder id: 470
+sun/security/util/Debug id: 471
+net/ptidej/newjava/aotcache/Main id: 472
+jdk/internal/misc/MethodFinder id: 473
+jdk/internal/misc/PreviewFeatures id: 474
+java/lang/PublicMethods$MethodList id: 475
+java/lang/PublicMethods$Key id: 476
+jdk/internal/misc/Blocker id: 477
+java/lang/Shutdown id: 478
+java/lang/Shutdown$Lock id: 479
+@cp net/ptidej/newjava/aotcache/Main 8 15 16
+@cp java/lang/Shutdown$Lock 1 2 17
+@cp java/lang/Shutdown 7 55 61 134 136
+@cp jdk/internal/misc/Blocker 8 20 26 30 46
+@cp java/lang/PublicMethods$Key 7 8 14 23 24 33 34 40
+@cp java/lang/PublicMethods$MethodList 1 2 7 8 14 26 31 34 46
+@cp jdk/internal/misc/PreviewFeatures 8
+@cp jdk/internal/misc/MethodFinder 15 21 28 32 33 38 39 45 50 55 67
+@cp sun/security/util/Debug 8 108
+@cp java/security/SecureClassLoader$DebugHolder 10 16 30
+@cp java/security/Permissions 1 2 7 8 13 15 18 22 124 227 229
+@cp java/security/PermissionCollection 1 2 8 37
+@cp java/security/SecureClassLoader$1 1 2 7 8 13 14 19 20 25 27 31 60
+@cp java/security/SecureClassLoader$CodeSourceKey 1 2 7 8 13 14 20 54
+@cp java/io/FileInputStream$1 1 2 7 8 13 14 19 20
+@cp jdk/internal/misc/InnocuousThread 14 20 61 64 65 70 81 82 100 110 114 117 123 127 137 141 147
+@cp jdk/internal/ref/CleanerImpl$CleanerCleanable 1 2
+@cp jdk/internal/ref/CleanerImpl$CleanableList$Node 3 4 9 11 12
+@cp jdk/internal/ref/CleanerImpl$CleanableList 1 2 7 8 12 14 15 19 36 37 41 44 48 50 51
+@cp jdk/internal/ref/CleanerImpl 2 14 15 20 21 25 27 28 32 34 35 50 52 61 62 67 68 73 80 82 86 91
+@cp java/lang/ref/Cleaner$1 1 2 7 8 13 14
+@cp java/lang/ref/Cleaner 1 2 7 9 10 11 16 17 24 38 40
+@cp jdk/internal/ref/CleanerFactory$1 1 2 12
+@cp jdk/internal/ref/CleanerFactory 8 13 15 17
+@cp java/io/FileCleanable 1 2 8 13 14 19 24 29 33 41 42 46 50 68
+@cp jdk/internal/ref/PhantomCleanable 2 8 13 17 18 23 24 29 33 36 37 56 61 65 80 81
+@cp java/lang/Package$VersionInfo 2 7 11 12 16 20 23 26 29 32 35
+@cp java/lang/Package 2 7 12 47 74 133 227 231 232
+@cp java/lang/NamedPackage 1 2 7 8 39 42 43 48
+@cp jdk/internal/loader/URLClassPath$FileLoader$1 1 2 7 11 15 19 20 25 26 31 33 36 37
+@cp jdk/internal/loader/Resource 1 2 7 8 13 17 20 28 34 39 40 52 57
+@cp java/nio/charset/CoderResult 1 2 7 8 13 114 117 118 122
+@cp sun/nio/cs/UTF_8$Decoder 1 2 8 14 20 34 47 67 71 73 76 77 81 82 83 89 94 95 158 162 163 170 171
+@cp java/nio/HeapCharBuffer 1 2 8 13 26 30 104 139 171 172 182 183 188
+@cp java/nio/CharBuffer 1 2 7 8 13 27 29 32 46 50 69 102 189 216 221 224 233 236 253 342 350 351
+@cp jdk/internal/loader/URLClassPath$FileLoader 1 2 7 8 14 19 20 26 38 41 45 46 51 57 60 77 83 87 93 97 99 128
+@cp jdk/internal/loader/URLClassPath$Loader 1 2 7 8
+@cp sun/net/util/URLUtil 7 9 10 11 29 34 40 43 47 51 59 62
+@cp java/lang/StringCoding 18
+@cp sun/nio/cs/MS1252$Holder 7 11 12 28 47
+@cp sun/nio/cs/SingleByte$Decoder 3 4 10 11 16 20 24 117 118
+@cp java/nio/charset/CharsetDecoder 1 2 8 13 14 18 21 25 40 44 48 51 57 62 63 72 77 81 88 99 100 105 108 109 164 171 237 238
+@cp sun/launcher/LauncherHelper 8 52 53 143 145 183 611 612 756 761 788 794 811 812 817 828 835 866 873 1213
+@cp jdk/internal/vm/Continuation$Pinned 1 26 31 36
+@cp jdk/internal/vm/ContinuationSupport 8
+@cp java/lang/ModuleLayer$Controller 1 2 7 8
+@cp java/util/HashMap$KeyIterator 1 2 7 8 13 14
+@cp java/util/HashMap$KeySet 1 2 7 8 22 24
+@cp java/util/concurrent/CopyOnWriteArrayList 1 2 7 8 13 20 30 46
+@cp jdk/internal/module/ServicesCatalog$ServiceProvider 1 2 7 8 13
+@cp java/util/ImmutableCollections$ListItr 1 2 7 8 13 17 20 24 25
+@cp java/lang/ModuleLayer 1 2 7 8 13 17 18 24 30 35 46 47 69 85 88 112 127 130 137 141 142 146 150 154 241 268 300 347 372 373 377 379 380 387 396
+@cp jdk/internal/module/ModuleLoaderMap$Mapper 1 2 7 9 10 11 16 17 22 23 28 32 34 39 44 51 55 61 65 66 71 73 83 88 126
+@cp java/util/AbstractMap$KeyIterator 1 2 7 8 13 14 19 20 25 29 30 38 42 44
+@cp java/util/AbstractMap$1 1 2 7 8 13 15
+@cp java/lang/module/ResolvedModule 1 2 8 13 15 16 21 23 27 31 32 37 41
+@cp java/lang/module/Configuration 1 2 7 8 14 19 24 28 33 37 41 50 54 56 58 61 65 66 71 75 96 98 99 104 105 110 119 121 125 126 128 131 134 247 291 292 297 302
+@cp jdk/internal/loader/BuiltinClassLoader$LoadedModule 1 2 7 8 13 14 19 21 22 29 33 34 43 47 51
+@cp jdk/internal/loader/ClassLoaderValue 1 2
+@cp jdk/internal/loader/AbstractClassLoaderValue 1 2 13 18 19 24 31 39 86 87 92
+@cp jdk/internal/module/ServicesCatalog 1 2 7 9 12 13 18 19 20 25 27 29 32 40 50 51 56 57 62 63 68 69 74 78 80 84 88 92 94 97 99 102 121 122 130 136
+@cp sun/net/www/protocol/jar/Handler 1 2
+@cp java/util/ArrayDeque 3 4 20 24 44 45 49 92
+@cp sun/net/util/IPAddressUtil$MASKS 1 9 16 21 22 28
+@cp sun/net/util/IPAddressUtil 7 9 10 114 211 229 275 276 284 393 394 398 411
+@cp sun/net/www/protocol/file/Handler 1 2 8 13 14 19
+@cp java/net/URLStreamHandler 1 2 9 11 14 22 34 35 39 42 45 48 52 55 58 61 62 67 71 78 84 88 110 116 122 127 134 139 144 145 192 203 216 229
+@cp sun/net/www/ParseUtil 1 14 26 27 32 44 58 61 65 74 78 80 84 90 95 100 105 110 111 116 126 130 136 139 142 153 161 164 167 170 174 175 182 186 188 189 197 201 204 207 213 348 361 362 370
+@cp java/io/File$PathStatus 1 20 25 30
+@cp java/net/URL$1 1 2
+@cp java/net/URL$DefaultFactory 1 2 7 8 15 23 25 89
+@cp jdk/internal/loader/URLClassPath 1 2 7 9 10 11 16 18 19 23 30 32 33 37 38 41 53 61 66 67 72 79 87 91 95 97 99 119 140 143 148 159 175 200 207 211 216 219 222 241 249 252 257 263 266 268 305 306 336
+@cp java/util/WeakHashMap$KeySet 1 2 7 8 19
+@cp java/util/Collections$SetFromMap 1 2 7 8 13 14 19 34 43 48
+@cp java/util/WeakHashMap$Entry 1 2 7 8 13 17
+@cp java/util/WeakHashMap 1 3 4 9 11 12 13 41 52 57 61 65 69 74 103 112 116 119 123 129 136 138 141 146 149 153 157 161 164 218 222 224 268
+@cp java/lang/ClassLoader$ParallelLoaders 8 13 14 19 20 25 28 30 32 37
+@cp jdk/internal/loader/ClassLoaders$BootClassLoader 1 2 8 13 14
+@cp jdk/internal/loader/ArchivedClassLoaders 1 2 8 13 14 22 28 31 33 42 47 53 59
+@cp java/util/concurrent/ConcurrentHashMap$KeySetView 1 2 7 8
+@cp java/util/concurrent/ConcurrentHashMap$CollectionView 3 4 9 10
+@cp jdk/internal/loader/NativeLibraries 1 3 7 8 12 14 15 19 23 27 88 251 285
+@cp java/lang/Module$EnableNativeAccess 8 18 23 31 35
+@cp jdk/internal/loader/BootLoader 8 14 20 34 39 48 67 136 142 150 154 162 164
+@cp java/util/Optional 2 7 8 13 23
+@cp jdk/internal/module/SystemModuleFinders$SystemModuleFinder 1 2 8 13 14 20 25 37 42 45 48
+@cp jdk/internal/module/SystemModuleFinders$2 1 2 7 8
+@cp jdk/internal/module/ModuleReferenceImpl 2 7 9 10 15 16 21 25 29 33 37 41 88 91 95 96
+@cp jdk/internal/module/SystemModuleFinders$1 1 2 7 8
+@cp java/lang/module/ModuleReference 1 2 8 13 15 16 21 26
+@cp java/util/Collections$UnmodifiableMap 1 2 10 11 17 33
+@cp jdk/internal/module/ModuleHashes$Builder 1 2 7 9 12 13 19 24 26 30 31 36 40 42
+@cp jdk/internal/module/ModuleHashes 1 2 8 13 15 16 22 27
+@cp jdk/internal/module/ModuleTarget 1 2 7 8
+@cp java/util/ImmutableCollections$Set12$1 1 2 7 8 13 14 20 24 32
+@cp java/lang/module/ModuleDescriptor$Requires$Modifier 1 26 31 35 41 45 48
+@cp java/lang/reflect/AccessFlag$18 1 2
+@cp java/lang/reflect/AccessFlag$17 1 2
+@cp java/lang/reflect/AccessFlag$16 1 2
+@cp java/lang/reflect/AccessFlag$15 1 2
+@cp java/lang/reflect/AccessFlag$14 1 2
+@cp java/lang/reflect/AccessFlag$13 1 2
+@cp java/lang/reflect/AccessFlag$12 1 2
+@cp java/lang/reflect/AccessFlag$11 1 2
+@cp java/lang/reflect/AccessFlag$10 1 2
+@cp java/lang/reflect/AccessFlag$9 1 2
+@cp java/lang/reflect/AccessFlag$8 1 2
+@cp java/lang/reflect/AccessFlag$7 1 2
+@cp java/lang/reflect/AccessFlag$6 1 2
+@cp java/lang/reflect/AccessFlag$5 1 2
+@cp java/lang/reflect/AccessFlag$4 1 2
+@cp java/lang/reflect/AccessFlag$3 1 2
+@cp java/lang/reflect/AccessFlag$2 1 2
+@cp java/lang/reflect/AccessFlag$1 1 2
+@cp java/lang/reflect/AccessFlag$Location 1 41 46 51 65 169
+@cp java/lang/reflect/AccessFlag 1 83 88 92 96 100 104 199 203 205 206 213 215 217 219 221 223 228 230 239 241 246 248 254 256 262 264 267 269 275 277 282 284 289 291 296 298 300 302 307 309 315 317 319 321
+@cp java/lang/module/ModuleDescriptor$Modifier 1 26 31 35 41 45 48
+@cp java/lang/module/ModuleDescriptor$Version 1 2 7 12 17 18 27 28 55 57 61 71 75 79 82 85
+@cp java/util/ImmutableCollections$List12 1 2 8 13 14 20 24
+@cp java/lang/module/ModuleDescriptor$Provides 1 2 7 8 14 19 24 43 46 48 109
+@cp java/lang/module/ModuleDescriptor$Opens 1 2 8 13 14 19 23 58 72 95
+@cp java/util/ImmutableCollections$SetN$SetNIterator 1 2 7 8 13 14 19 23 28 32
+@cp java/lang/module/ModuleDescriptor$Exports 1 2 8 13 14 19 23 58 62 72 90 93 95
+@cp java/lang/module/ModuleDescriptor$Requires 1 2 8 22 26 30 34 87 97 111 121 150 151
+@cp jdk/internal/module/Builder 2 7 8 13 14 27 28 36 40 44 47 50 54 55 60 65 70 74 77 80 83 86 90 93 99 102 105 126 129 133 134 140
+@cp jdk/internal/module/SystemModules$default 6 8 15 17 22 24 28 30 32 176 403 405 409 483 485 489 500 669 675 680 682 1846 2362 2365 2369 2371 2376 2380 2389 2393 2397 2399
+@cp jdk/internal/module/SystemModulesMap 16 17
+@cp java/net/URI$1 1 2 7 9
+@cp java/net/URI 1 3 4 9 44 48 51 53 54 58 61 68 83 86 116 119 123 168 180 190 206 211 257 265 511 512 516 518 520
+@cp jdk/internal/module/SystemModuleFinders 8 14 27 51 60 64 68 72 76 78 84 85 99 104 106 153 204 271 275 276 281 283 284 286 289 290 295 307 313 315 323 331
+@cp jdk/internal/module/ArchivedModuleGraph 8 64
+@cp jdk/internal/module/ArchivedBootLayer 8 21
+@cp jdk/internal/module/ModuleBootstrap$Counters 8 14
+@cp jdk/internal/module/ModuleLoaderMap$Modules 7 56 62 144
+@cp jdk/internal/module/ModuleLoaderMap 8 19 21
+@cp java/util/HashSet 1 2 7 9 10 11 39 45 49 50 56 60 68 80 225
+@cp jdk/internal/module/ModuleBootstrap$IllegalNativeAccess 1 23 28 33
+@cp jdk/internal/module/ModulePatcher 1 2 7 8 17 18 78 79 84 85 90 390
+@cp jdk/internal/util/DecimalDigits 8
+@cp java/io/WinNTFileSystem 1 5 6 16 18 24 32 42 43 46 53 54 59 63 69 72 77 80 84 88 94 98 101 104 108 111 115 117 130 137 147 148 152 155 181 211 214 219 222 234 343 344
+@cp java/io/FileSystem 1 2 7 8
+@cp java/io/DefaultFileSystem 7 9
+@cp java/io/File 1 2 11 12 18 25 29 30 35 46 47 52 59 63 147 151 156 162 169 172 231 238 418 445 446 451 456 466 479
+@cp java/lang/module/ModuleDescriptor$1 1 2 20 22 25 28 32 35 37 38 40 43 45 49 54
+@cp sun/invoke/util/VerifyAccess 3 5 25 41 70 73 91 100 124 170
+@cp java/util/KeyValueHolder 1 2 8 13 14 19
+@cp java/util/ImmutableCollections$MapN$MapNIterator 1 2 7 8 13 14 19 23 28 32 39 43 45 51
+@cp java/util/ImmutableCollections$MapN$1 1 2 7 8 19 21
+@cp java/lang/StrictMath 1 31 78 333 334
+@cp java/lang/invoke/MethodHandles$Lookup 3 13 17 20 24 28 29 38 46 50 91 361 411 416 457 857 896 902 907 917 925
+@cp java/lang/invoke/MemberName$Factory 3 4 10 16 74 81 84
+@cp java/lang/invoke/MethodHandles 8 20 22 26 85 237 1213 1217
+@cp java/lang/module/ModuleDescriptor 1 2 8 16 20 24 28 33 38 43 47 53 81 84 87 90 93 96 99 102 110 111 116 136 166 190 199 308 309 311 313 348 349 353 355 357
+@cp jdk/internal/module/ModuleBootstrap 8 18 45 50 71 86 96 116 117 124 154 158 159 173 178 179 181 198 202 203 208 216 220 228 233 238 261 263 267 271 272 276 280 288 355 363 364 384 389 390 394 396 406 407 410 415 417 418 424 440 444 490 491 493 547 597 620 625 641 743 753 809 810 869 870 875
+@cp java/util/concurrent/atomic/AtomicInteger 1 2 7 8 22 106
+@cp java/lang/Character$CharacterCache 7 9 10 16 22 31
+@cp java/util/HexFormat 1 2 10 15 17 18 24 28 30 40 322 323 328
+@cp jdk/internal/util/ClassFileDumper 2 8 13 14 18 22 26 30 60 61 63 65 66 71 76 83 92 232 238 247 252 256
+@cp java/lang/CharacterDataLatin1 2 38 39 44
+@cp java/lang/CharacterData 1 2 14
+@cp java/lang/reflect/ClassFileFormatVersion 1 89 94 98 163
+@cp java/lang/invoke/MethodHandleStatics 8 18 36 141 151 156 170 171 176 191 195
+@cp java/util/Collections$EmptyMap 1 2 8
+@cp java/util/Collections$EmptyList 1 2 8
+@cp java/util/Collections$EmptySet 1 2 8
+@cp java/util/Collections 19 220 221 223 225 464 469 471 491 493 494 496 497 499
+@cp jdk/internal/ref/Cleaner 2 66 68
+@cp java/lang/ref/Finalizer$FinalizerThread 3 4 9 10 16 22 27 28
+@cp java/lang/Thread$ThreadIdentifiers 8 17 18 28
+@cp java/lang/ref/Reference$ReferenceHandler 1 2 8 13 15 20
+@cp java/lang/Thread$State 1 32 37 42
+@cp sun/io/Win32ErrorMode 8 16 38
+@cp jdk/internal/misc/OSEnvironment 8
+@cp java/lang/Integer$IntegerCache 7 9 10 16 24 50 66
+@cp jdk/internal/misc/Signal$NativeHandler 1 2 7 8
+@cp java/util/Hashtable$Entry 1 2 7 8 13 17 20
+@cp jdk/internal/misc/Signal 1 2 7 12 33 34 38 43 62 86 91 92 100 140
+@cp java/lang/Terminator$1 1 2
+@cp jdk/internal/misc/Signal$Handler 1 3 8
+@cp java/lang/Terminator 8 13 15 16 20
+@cp java/io/BufferedWriter 2 16 18 19 31 35 39 43 50 58 64 74 78 82 86 100 105 106 115
+@cp java/nio/ByteOrder 1 2 7 8 19 29 34
+@cp java/nio/HeapByteBuffer 1 2 8 13 26 30 59 83 238 239 249 250 255
+@cp java/nio/Buffer$2 1 2
+@cp java/nio/Buffer$1 1 2
+@cp jdk/internal/misc/ScopedMemoryAccess 2 7 8 37 1280
+@cp java/nio/ByteBuffer 1 2 7 8 14 23 26 30 49 51 88 172 177 180 189 192 208 293 299 307 308
+@cp java/nio/charset/CodingErrorAction 1 2 7 8 15
+@cp sun/nio/cs/SingleByte 9 10 15 21 27
+@cp java/lang/StringUTF16 3 12 416 417 423 428
+@cp sun/nio/cs/IBM850$Holder 7 11 12 28 47
+@cp sun/nio/cs/SingleByte$Encoder 3 4 9 10 15 19 22 26 35 36 41 45 48 51 52 56 57 58 60 66 108 139 142 143
+@cp java/nio/charset/CharsetEncoder 1 2 8 13 14 18 21 25 29 44 48 52 55 59 63 74 80 139 146 150 157 168 171 322 323 327
+@cp sun/nio/cs/StreamEncoder 1 2 16 21 31 37 45 49 57 64 74 79 91 96 101 102 107 110 111 115 118 122 126 130 134 139 144 148 153 157 160 167 171 174 175 179 195 204 208 209 216 230 233 239 242 247 282 283
+@cp java/io/OutputStreamWriter 1 2 15 20 21 50 58
+@cp java/io/Writer 7 8 10 11 27 28 33
+@cp sun/nio/cs/IBM850 4 9 10 22 30 38
+@cp java/io/BufferedOutputStream 16 18 19 31 32 37 41 49 52 55 59 60 80 84 89 94
+@cp java/io/PrintStream 10 28 29 33 37 40 50 53 55 58 62 64 67 79 97 106 110 137 144 147 148 151 154 184 185 190
+@cp java/io/FilterOutputStream 1 2 7 9 10 11 16
+@cp java/io/BufferedInputStream 2 15 22 35 44 47 48 52 60 61 189
+@cp java/io/FilterInputStream 1 2 7 8
+@cp java/lang/System$Out 1 2 8 24
+@cp java/io/FileOutputStream 8 12 13 17 19 20 37 41 44 48 90 91 106 147
+@cp java/io/OutputStream 1 2
+@cp java/io/FileDescriptor$1 1 2 8 13 17 41
+@cp java/io/FileDescriptor 1 2 7 8 15 27 44 48 49 56 61 64 67 71 84 100 102 117 119 121 126
+@cp java/lang/System$In 1 2
+@cp java/io/FileInputStream 1 8 12 13 17 19 20 24 33 37 41 43 44 48 52 56 64 95 218 221 228 230 233
+@cp jdk/internal/util/StaticProperty 7 8 32 86 155 156
+@cp jdk/internal/reflect/DirectConstructorHandleAccessor 7 9
+@cp jdk/internal/reflect/MethodHandleAccessorFactory 8 52 147 233 297
+@cp jdk/internal/reflect/Reflection 8 17 18 24 45 59 85 115 116 140 142 146 151 186 262 271 273
+@cp java/lang/Class$Atomic 8 17 18 33 37
+@cp java/lang/Class$ReflectionData 1 2 7 8 13 15
+@cp sun/nio/cs/MS1252 4 9 10 31 34 39
+@cp sun/nio/cs/StandardCharsets$Classes 3 4 9 256
+@cp sun/nio/cs/UTF_32 4 9 10
+@cp sun/nio/cs/UTF_32LE 4 9 10
+@cp sun/nio/cs/UTF_32BE 4 9 10
+@cp sun/nio/cs/UTF_16 4 9 10
+@cp sun/nio/cs/UTF_16LE 4 9 10
+@cp sun/nio/cs/UTF_16BE 4 9 10
+@cp java/nio/charset/StandardCharsets 15 21 27 35 42 44 48 50 54 56 60 62 66 68 72 74
+@cp sun/nio/cs/US_ASCII 4 9 10 17 27 35
+@cp sun/nio/cs/ISO_8859_1 4 9 10 19 29
+@cp sun/nio/cs/UTF_8 4 9 10 17 19 25 26 31 39 41 49
+@cp sun/nio/cs/Unicode 1 2
+@cp sun/nio/cs/StandardCharsets$Cache 3 4 9 146
+@cp sun/nio/cs/StandardCharsets$Aliases 3 4 9 638
+@cp sun/util/PreHashedMap 1 2 7 8 13 16 19 22 24 28 32 37 41 45 46 61
+@cp java/util/Arrays 2 14 86 91 151 176 305 310 697
+@cp jdk/internal/util/Preconditions$3 1 2
+@cp jdk/internal/util/Preconditions$2 1 2
+@cp jdk/internal/util/Preconditions$4 1 2 7 8
+@cp jdk/internal/util/Preconditions$1 1 2
+@cp jdk/internal/util/Preconditions 24 55 57 114 116 125 127 131 133
+@cp sun/nio/cs/StandardCharsets 1 482 520 521 528 532 538 542 543 548 551 553 554 557 559 560 563 565 569 574 581 588 595 619 623 627 629 632 636 650 653 655 657 659 662 665 666 671 672 681 685 694
+@cp java/nio/charset/spi/CharsetProvider 1 2
+@cp java/nio/charset/Charset 1 2 13 18 26 50 70 72 90 167 172 176 177 199 202 288 290
+@cp java/util/HashMap$EntryIterator 1 2 7 8 13
+@cp java/util/HashMap$HashIterator 1 2 7 8 13 14 19 22 26 30 33 36 45 46
+@cp java/util/HashMap$EntrySet 1 2 7 8 22 24
+@cp java/util/AbstractSet 1 2
+@cp java/util/concurrent/ConcurrentHashMap$ReservationNode 3 4
+@cp java/util/concurrent/ConcurrentHashMap$Node 1 2 7 8 13 17
+@cp java/lang/Runtime 2 7 8 182
+@cp java/lang/VersionProps 9 13 14 35 36 224
+@cp java/lang/StringConcatHelper 1 15 43 51 70 106 136 141 142
+@cp java/util/HashMap$Node 1 2 7 8 13 17 20
+@cp jdk/internal/util/ArraysSupport 1 21 30 31 54 65 210 253 285
+@cp java/lang/StringLatin1 1 14 55 61 83 119 123 141 254 255
+@cp java/util/HashMap 1 2 35 40 43 44 71 81 88 93 96 100 101 105 110 117 121 125 126 131 132 137 141 143 146 152 156 158 162 163 168 170 173 177 180 186 198 202 205 239 243 245 266 268 270 375 390
+@cp jdk/internal/util/SystemProps$Raw 1 3 4 13 20 22 27 141
+@cp jdk/internal/util/SystemProps 8 22 24 25 31 32 37 52 75 81 153 155 159 165 166
+@cp java/lang/System$1 1 2 8 13 69 70 91 93 96 136 140 141 178
+@cp java/lang/ref/ReferenceQueue$Lock 1 2 17
+@cp java/lang/ref/ReferenceQueue$Null 1 2
+@cp java/lang/ref/ReferenceQueue 1 2 7 8 13 15 16 39 57 62 67 73 118 122 130 131 135 137
+@cp java/lang/ref/Reference$1 1 2 8 13 17 18 23 29
+@cp jdk/internal/reflect/ReflectionFactory$Config 1 2 7 8 13 44
+@cp java/lang/Math 1 3 12 71 345 346
+@cp jdk/internal/reflect/ReflectionFactory 1 2 8 13 14 23 24 36 46 57 58 63 64 80 88 96 100 265 288 353 384 390 400 403
+@cp jdk/internal/access/SharedSecrets 8 59 73 79 206 211 212
+@cp java/lang/reflect/ReflectAccess 1 2 8 14 19 26 27 37 40 41 50
+@cp java/util/ImmutableCollections$MapN 3 4 16 17 22 24 29 34 57 61 65 67 71
+@cp java/util/ImmutableCollections$AbstractImmutableMap 1 2
+@cp java/util/ImmutableCollections$SetN 3 4 9 10 15 17 21 47 52 54 57 62 67 81 85 86
+@cp java/util/ImmutableCollections$ListN 1 2 7 8 13 114
+@cp java/util/ImmutableCollections$AbstractImmutableList 1 2 13 14 61 63 89 98
+@cp java/util/ImmutableCollections 1 2 10 12 18 38 43 47 73 74 81 87 111 113 120 122
+@cp java/util/Objects 2 14 24 37 106
+@cp java/util/ImmutableCollections$Set12 1 2 8 13 14 20 24 27 28 54 58 60
+@cp java/util/ImmutableCollections$AbstractImmutableSet 1 2
+@cp java/util/ImmutableCollections$AbstractImmutableCollection 1 2
+@cp java/util/Set 10 15 17 21 24 26 28 31 33
+@cp jdk/internal/misc/CDS 8 37
+@cp java/lang/Module$ArchivedData 1 2 8 13 14 22 28 34 37 43
+@cp jdk/internal/misc/VM 1 2 8 38 86 87 92 112 117 122 139 150
+@cp java/lang/String$CaseInsensitiveComparator 1 3 4
+@cp java/io/ObjectStreamField 1 2 7 8 15 19 23 27 31
+@cp java/lang/Void 10 16
+@cp java/lang/Integer 1 5 7 106 116 127 132 133 139 180 193 194 196 285
+@cp java/lang/Byte 1 128
+@cp java/lang/Double 1 166
+@cp java/lang/Float 1 131 132
+@cp java/lang/Number 1 2
+@cp java/lang/Character 1 19 41 42 48 60 159 239 252 369 370
+@cp java/lang/Boolean 1 2 7 8 17 22 23 46 50 79
+@cp java/nio/Buffer 3 4 9 10 15 22 25 33 37 81 115 134 135 141 151 160 162 167 169 171
+@cp java/util/ArrayList 1 2 7 9 10 48 63 69 80 119 123 129 131
+@cp java/util/AbstractList 1 2 7 8
+@cp java/util/AbstractCollection 1 2
+@cp java/util/List 91 96 98 100
+@cp java/util/concurrent/ConcurrentHashMap 3 6 11 21 30 66 67 72 74 78 82 83 89 112 121 127 135 138 142 146 153 173 177 181 198 211 246 282 284 373 398 399 400 414 416 430 434 441 454 720 724 740 749 753 761
+@cp java/util/AbstractMap 1 2 8 62 66 68
+@cp java/security/CodeSource 1 2 7 8 13 17 21 26 31
+@cp jdk/internal/loader/ClassLoaders$PlatformClassLoader 3 4 10
+@cp jdk/internal/loader/ClassLoaders$AppClassLoader 3 4 15 20
+@cp jdk/internal/loader/ClassLoaders 8 24 37 72 84 89 93 95 102 115 117 119 125 136 139
+@cp jdk/internal/loader/BuiltinClassLoader 2 8 13 14 19 23 27 29 32 35 38 42 47 48 53 54 59 60 81 83 86 90 91 96 97 102 106 113 118 122 163 248 265 273 287 291 295 298 304 308 319 323 326 330 337 338 343 354 358 368 372 376 380 384 387 393 398 504 505 510 517
+@cp java/lang/Enum 1 2 7 11 12 17 21
+@cp java/net/URL 1 2 7 10 11 15 19 26 30 31 38 55 70 77 83 86 89 94 103 107 112 119 130 133 137 143 152 157 160 161 191 231 239 254 266 269 333 358 437 446 447 458 502 506 509 559 561 562 563 565 569 578 580 582
+@cp java/io/InputStream 3 4
+@cp jdk/internal/module/Modules 8 13 14 322 323 328
+@cp jdk/internal/misc/Unsafe 2 7 8 20 30 110 115 258 273 276 280 284 305 310 346 358 361 364 368 412 462 489 492 512 518 681 856 859 905
+@cp jdk/internal/misc/UnsafeConstants 8
+@cp java/lang/StringBuilder 1 2 18 24 29 38 50 53 137 143 348
+@cp java/lang/AbstractStringBuilder 1 3 4 10 15 22 32 40 47 48 79 83 88 100 104 109 115 156 202 226 240 309 402 407 408 409
+@cp java/lang/invoke/MethodHandleNatives 10 59 95 524 532 548
+@cp java/lang/invoke/MemberName 3 12 209 575
+@cp java/lang/invoke/MethodHandle 4 143 222 559 579 583
+@cp jdk/internal/reflect/DirectConstructorHandleAccessor$NativeAccessor 1 2 7 8
+@cp jdk/internal/reflect/ConstructorAccessorImpl 1 2
+@cp jdk/internal/vm/Continuation 2 41 202 257 273 395 396 405 410 416
+@cp java/lang/reflect/Constructor 12 13 18 39 40 45 49 53 56 60 63 67 71 81 84 89 94 98 102 105 211 215 219 220 232 235 244 245 251 337
+@cp java/lang/reflect/Method 1 2 18 22 43 44 49 53 56 60 63 66 70 73 77 80 90 93
+@cp java/lang/reflect/Executable 1 2
+@cp java/lang/reflect/AccessibleObject 2 14 23 30 40 43 63 67 81 179 183 207 216 231 233 243 274 276 278 284
+@cp java/lang/Module 1 2 7 8 13 14 19 22 26 30 34 37 41 42 47 50 55 59 60 74 75 81 87 132 192 196 256 260 261 269 322 338 343 355 359 360 364 371 388 393 422 423 427 429 434 436 440 446 451 452 453 458 459 463 464 468 471 474 476 479 484 486 497 508 511 512 515 529 533 536 540 541 560 563 565 567 570 573 579 581 582 583 792 796 812
+@cp java/util/Properties 1 2 9 10 14 16 19 23 31 32 79 298 301 373 374
+@cp java/util/Hashtable 3 4 9 10 37 47 51 53 59 64 68 85 100 112 126 129
+@cp java/util/Dictionary 1 2
+@cp java/util/Map 36 38 41 82 91 93 95 98 100
+@cp java/lang/ThreadGroup 1 2 7 8 15 21 25 30 35 39 53 223 238 242 252 256 258 268 289
+@cp java/lang/Thread$FieldHolder 1 2 7 8 13 17 21
+@cp java/lang/Thread 2 7 32 36 111 123 124 131 133 136 144 148 149 156 160 166 170 179 183 201 205 210 260 282 284 291 294 312 317 325 326 335 338 342 351 369 396 399 403 406 410 413 415 423 436 457 462 486 490 526
+@cp java/lang/ref/Finalizer 2 69 88 112 114 117 121 125 126 131 133 134 136
+@cp java/lang/ref/PhantomReference 2 7 11 12
+@cp java/lang/ref/WeakReference 1 2 7
+@cp java/lang/ref/SoftReference 1 2 8 13
+@cp java/lang/ref/Reference 1 2 8 42 56 60 64 66 70 74 77 80 84 87 111 114 115 116 120 122 124
+@cp java/lang/Record 1 2
+@cp java/security/SecureClassLoader 2 7 9 12 13 21 24 28 35 37 38 40 43 45 48 49 54
+@cp java/security/ProtectionDomain 1 2 7 8 13 17 21 22 26 28 31 35 37 41
+@cp java/lang/Throwable 8 84 114 182 312
+@cp java/lang/System 8 25 62 68 80 81 86 93 104 191 193 195 199 205 210 217 271 272 276 278 282 283 288 289 293 297 299 302 307 319 322 346 352 355 360 363 367 370 372 390 401 402 409 450 456 461 465 467
+@cp java/lang/ClassLoader 1 2 7 8 13 17 18 23 29 50 51 63 64 66 67 69 73 76 79 83 85 90 94 97 101 104 108 112 114 117 121 126 131 134 138 145 147 151 153 156 160 163 164 166 169 182 192 246 265 275 279 284 288 292 296 297 299 302 306 314 318 326 359 362 380 392 403 446 453 464 490 509 583 599 752 756 761 766 770 796
+@cp java/lang/Class 2 12 20 26 33 38 49 182 272 289 293 294 299 300 314 334 338 341 364 372 376 380 386 394 475 483 494 527 670 674 675 788 791 796 803 807 808 812 879 882 885 892 916 1262
+@cp java/lang/String 1 2 9 10 15 19 23 27 42 55 75 79 84 87 93 107 117 124 133 137 139 193 197 320 496 509 565 566 568 575 591 640 655 663 701 710 714 730 731 1020 1060 1067 1109 1115 1117
+@cp java/lang/Object 8 38 50 55 57
