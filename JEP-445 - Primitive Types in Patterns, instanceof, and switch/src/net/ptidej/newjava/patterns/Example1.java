@@ -10,6 +10,7 @@ public class Example1 {
 		case 2 -> System.out.println("Got 2");
 		case int i when i >= 100 -> System.out.println("Got " + i + " >= 100");
 		case int i -> System.out.println("Got " + i + " >2 and <100");
+		default -> System.out.println();
 		}
 	}
 }

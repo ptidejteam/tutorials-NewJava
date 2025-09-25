@@ -6,6 +6,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jdt.annotation_2.3.0.v20240111-2306.jar"/>
+	<classpathentry kind="var" path="ECLIPSE_HOME/plugins/org.eclipse.jdt.annotation_2.4.0.v20250623-0940.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

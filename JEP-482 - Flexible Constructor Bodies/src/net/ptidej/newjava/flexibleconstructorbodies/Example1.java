@@ -4,6 +4,8 @@ import java.math.BigDecimal;
 import java.math.BigInteger;
 
 class ValidationWithAuxiliaryMethod extends BigDecimal {
+	private static final long serialVersionUID = -4089253171000982343L;
+
 	private static long checkPositive(final long value) {
 		if (value <= 0)
 			throw new IllegalArgumentException("The value should be positive");
@@ -16,10 +18,12 @@ class ValidationWithAuxiliaryMethod extends BigDecimal {
 }
 
 class ValidationInConstructor extends BigInteger {
+	private static final long serialVersionUID = -4561765845236844380L;
+
 	public ValidationInConstructor(final long value) {
 		if (value <= 0)
 			throw new IllegalArgumentException("The value should be positive");
-		super(value);
+		super(String.valueOf(value));
 	}
 
 }

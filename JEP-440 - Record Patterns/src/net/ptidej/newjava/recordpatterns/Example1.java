@@ -14,7 +14,7 @@ public class Example1 {
 		}
 
 		final Object o2 = person2;
-		if (o2 instanceof final Person(final String first, final String last)) {
+		if (o2 instanceof Person(final String first, final String last)) {
 			System.out.println(first);
 		}
 	}
